@@ -1,6 +1,6 @@
 # **The "I Don't Trust Myself" Site Blocker**
 
-A productivity tool by Patrick Coombe
+A productivity tool by [Patrick Coombe](https://patrickcoombe.com/about-patrick/)
 
 This is a simple set of scripts for when you *know* you need to get work done, but you also *know* that "future you" has zero self-control and will just go edit /etc/hosts to get back on Reddit.
 
