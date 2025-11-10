@@ -1,7 +1,7 @@
 #!/bin/bash
 # A script to block websites by adding entries to /etc/hosts.
-# Usage: sudo ./block_sites.sh twitter.com reddit.com www.twitter.com www.reddit.com
-# This script is confirmed to work on Pop!_OS.
+# Usage: sudo ./block_sites.sh twitter.com reddit.com etc
+# This script is confirmed to work on pop os only I am sure it works on other distros
 
 HOSTS_FILE="/etc/hosts"
 REDIRECT_IP="127.0.0.1"
@@ -17,7 +17,7 @@ fi
 # 2. Check if chattr (the locking command) is available
 if ! command -v chattr &> /dev/null; then
     echo "Warning: 'chattr' command not found. The lock/unlock scripts won't work."
-    echo "This utility should be included in Pop!_OS by default, so this is unusual."
+    echo "This utility should be included in popos by default, so this is unusual."
 fi
 
 # 3. Check if any domains were provided
