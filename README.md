@@ -6,6 +6,12 @@ This is a simple set of scripts for when you *know* you need to get work done, b
 
 This system is just a "speed bump." It doesn't *really* stop you, but it makes it *just* annoying enough to undo that your impulsive brain might give up and go back to work.
 
+Also note some sites are weird and will use www and non www as well as many different domains, cdns, etc.
+
+VPNs can def effect this.
+
+Don't spend your time hacking this the point is to block yourself! 
+
 ## **How It Works**
 
 1. **block\_sites.sh**: This script just adds domains to your /etc/hosts file and points them at 127.0.0.1 (aka, nowhere / localhost). Most ppl can just add sites to their /etc/hosts file but I made this just for fun.
@@ -57,4 +63,7 @@ Okay, so you *really* need to make a change. You can't just edit the file. You h
 ### **Disclaimer**
 
 **This is just for fun. You're running scripts with sudo, which is always serious business. Read the scripts so you know what they do. I'm not responsible if you lock yourself out of something you actually needed.**
+
+
+![image](https://i.imgur.com/DfVzFbQ.png)
 
