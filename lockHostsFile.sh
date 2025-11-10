@@ -1,6 +1,6 @@
 #!/bin/bash
 # Locks the /etc/hosts file to prevent accidental or impulsive edits.
-# This script USES 'chattr', which is standard on Pop!_OS.
+# This script USES 'chattr', which is standard on popos
 
 HOSTS_FILE="/etc/hosts"
 
